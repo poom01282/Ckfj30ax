@@ -1,0 +1,78 @@
+.galletacontainer {
+  margin-top: 10rem;
+  list-style: none;
+  font-size: 1.5rem;
+  text-align: center;
+  overflow:hidden;
+  transition: all 1s ease-in-out;
+}
+.imggalleta:hover{
+  transition: all 1s ease-in-out;
+  opacity: 0.5;
+  -webkit-transform:scale(0.5);transform:scale(0.5);
+ 
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+
+.container,
+.button,
+.sun,
+.button span {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  
+  
+}
+
+.container a:hover .sun {
+  bottom: 16px;
+  transition: all 1s ease-in-out;
+  box-shadow: 0px 0px 10px #ffdc2a;
+
+}
+.container a:hover .button {
+   
+  box-shadow: 10px 10px 0px #fde07f;
+  transition: all 1s ease-in-out;
+ 
+}
+.container .sun {
+  width: 64px;
+  height: 64px;
+  left: 15px;
+  bottom: 65px;
+  background: linear-gradient(90deg, #ffdc2a 0%, #fb2182 61.54%);
+  box-shadow: 0px 0px 20px #ffdc2a;
+  z-index: 2;
+  border-radius: 65px;
+  transition: all 1s ease-in-out;
+  
+}
+.container .button {
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  width: 291px;
+  height: 65px;
+  background: #231f1f;
+  border-radius: 10px;
+  z-index: 3;
+  border: 2px;
+  transition: all 1s ease-in-out;
+  border-image: linear-gradient(#360154, #d442d5) 30;
+ 
+}
+.container .button span {
+ 
+  font-family: "Sacramento", cursive;
+
+  font-size: 35px;
+  transition: all 0.3s ease-in-out;
+  background: -webkit-linear-gradient(#ffdc2a, #fb2182);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+}
